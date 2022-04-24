@@ -1,0 +1,48 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 8b4f3ce8-1650-4421-9e4c-a79f980611db)
+
+  (paper "A3")
+
+  (title_block
+    (title "uSDX_328P Трансивер")
+    (date "2022-04-24")
+    (rev "1")
+    (company "hamradio@conference.jabber.ru")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Цифровая часть" (at 210.058 80.01 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ccfc8409-4d33-4930-9806-445b7ef9d594)
+  )
+
+  (sheet (at 194.818 37.846) (size 49.276 99.822) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 255 255 194 1.0000))
+    (uuid ab042e49-eefe-4a38-b64c-8f43b925488b)
+    (property "Sheet name" "digital" (id 0) (at 194.818 37.1344 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "digital.kicad_sch" (id 1) (at 194.818 138.2526 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/ab042e49-eefe-4a38-b64c-8f43b925488b" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/ab042e49-eefe-4a38-b64c-8f43b925488b/0c565260-a286-43a0-b764-24184883a6df"
+      (reference "DD?") (unit 1) (value "ATmega328PB-A_gost") (footprint "Package_QFP:TQFP-32_7x7mm_P0.8mm")
+    )
+    (path "/ab042e49-eefe-4a38-b64c-8f43b925488b/74fd1a24-2766-4314-a4ed-7981139dc804"
+      (reference "DD?") (unit 1) (value "ATmega328-P_gost") (footprint "Package_DIP:DIP-28_W7.62mm")
+    )
+  )
+)
