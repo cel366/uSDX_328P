@@ -245,6 +245,9 @@
     (path "/ab042e49-eefe-4a38-b64c-8f43b925488b/77763c59-b831-489a-bfa6-7899235fa256"
       (reference "C?") (unit 1) (value "10mF") (footprint "")
     )
+    (path "/ab042e49-eefe-4a38-b64c-8f43b925488b/81bfa63e-cbd6-4d02-83a0-55e1f25dfdf4"
+      (reference "C?") (unit 1) (value "0.1mF") (footprint "")
+    )
     (path "/ab042e49-eefe-4a38-b64c-8f43b925488b/87d39122-4a1d-4cae-a586-d00d07dccb97"
       (reference "C?") (unit 1) (value "0.1u") (footprint "")
     )
